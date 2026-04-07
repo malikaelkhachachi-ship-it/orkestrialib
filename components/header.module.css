@@ -1,0 +1,9 @@
+.header{max-width:1480px;margin:0 auto;padding:24px 32px 16px;display:flex;justify-content:space-between;align-items:center;gap:24px}
+.brand{font-family:Georgia,'Times New Roman',serif;font-size:32px;color:#F7F0E3;text-decoration:none}
+.nav{display:flex;gap:24px;flex-wrap:wrap}
+.link{color:rgba(243,234,216,.92);text-decoration:none}
+.actions{display:flex;gap:12px}
+.ghost,.primary{text-decoration:none;border-radius:14px;font-size:18px}
+.ghost{padding:14px 22px;color:#F3EAD8;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.03)}
+.primary{padding:14px 24px;color:#11131C;background:linear-gradient(180deg,#EFD59A 0%,#D6AF66 100%)}
+@media(max-width:767px){.header{padding:18px}.nav{display:none}.actions{width:100%}.ghost,.primary{flex:1;text-align:center;font-size:16px}}

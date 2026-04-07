@@ -1,0 +1,17 @@
+{
+  "name": "orkestrialib-nextjs-v4-supabase",
+  "private": true,
+  "version": "0.4.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.5.2",
+    "@supabase/supabase-js": "^2.49.8",
+    "next": "^16.0.10",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}
